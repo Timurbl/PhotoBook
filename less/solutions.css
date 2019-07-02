@@ -1,0 +1,104 @@
+.clean {
+  margin: 0;
+  padding: 0;
+}
+.clean-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#solutions {
+  padding: 50px 40px 70px;
+}
+#solutions h1 {
+  margin-bottom: 60px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: normal;
+}
+#solutions .row {
+  display: flex;
+  justify-content: space-around;
+}
+#solutions .row .tile {
+  position: relative;
+  width: 25%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffd200;
+}
+#solutions .row .tile .bestseller {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#solutions .row .tile .bestseller > div {
+  position: absolute;
+  background-color: #ffd200;
+}
+#solutions .row .tile .bestseller .left {
+  transform: rotate(45deg);
+  width: 30px;
+  height: 27px;
+  left: 30px;
+  top: -17px;
+}
+#solutions .row .tile .bestseller .text {
+  top: -24px;
+  padding: 6px 30px 0;
+  font-size: 21px;
+  font-weight: bold;
+  color: #e11a27;
+  text-transform: uppercase;
+}
+#solutions .row .tile .bestseller .right {
+  transform: rotate(45deg);
+  height: 27px;
+  width: 30px;
+  right: 28px;
+  top: -17px;
+}
+#solutions .row .tile .header {
+  padding: 30px;
+}
+#solutions .row .tile .header h3 {
+  font-weight: normal;
+  font-size: 36px;
+}
+#solutions .row .tile .content {
+  position: relative;
+  padding: 15px;
+  margin-bottom: 10px;
+  height: 250px;
+  background-color: #fff;
+}
+#solutions .row .tile .content ul {
+  margin: 0;
+  padding: 0;
+  list-style-image: url('../img/checkbox.png');
+  padding: 10px 0 0 30px;
+}
+#solutions .row .tile .content ul li {
+  padding: 0 0 5px 10px;
+  font-weight: normal;
+  font-size: 18px;
+}
+#solutions .row .tile .content ul li span {
+  position: relative;
+  top: -4px;
+}
+#solutions .row .tile .content .cost {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 10px;
+  right: 5px;
+  font-size: 60px;
+}
+#solutions .row .tile .footer {
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=solutions.css.map */
