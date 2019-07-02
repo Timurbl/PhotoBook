@@ -1,0 +1,42 @@
+.clean {
+  margin: 0;
+  padding: 0;
+}
+.clean-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#features {
+  padding: 40px 0 60px;
+  text-align: center;
+}
+#features img {
+  margin-bottom: 20px;
+}
+#features .text {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 950px;
+}
+#features .text > div {
+  width: 25%;
+  font-size: 24px;
+}
+#features .text > div > div {
+  position: relative;
+}
+#features .text > div.first > div {
+  right: 48px;
+}
+#features .text > div.second > div {
+  right: 14px;
+}
+#features .text > div.third > div {
+  left: 17px;
+}
+#features .text > div.fourth > div {
+  left: 47px;
+}
+/*# sourceMappingURL=features.css.map */

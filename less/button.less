@@ -1,0 +1,27 @@
+@import "partials/params";
+@import "partials/mixins";
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 26px;
+  text-decoration: none;
+  transition: .1s all;
+
+
+  &:active {
+    box-shadow: inset 0 0 20px -3px rgba(0,0,0, 60%);
+  }
+  &-line{
+    border: 1px solid #010101;
+    color: #212121;
+  }
+  &-red {
+    background-color: @red;
+    color: #fff;
+
+  }
+}

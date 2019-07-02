@@ -1,0 +1,31 @@
+.clean {
+  margin: 0;
+  padding: 0;
+}
+.clean-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 26px;
+  text-decoration: none;
+  transition: 0.1s all;
+}
+.btn:active {
+  box-shadow: inset 0 0 20px -3px rgba(0, 0, 0, 0.6);
+}
+.btn-line {
+  border: 1px solid #010101;
+  color: #212121;
+}
+.btn-red {
+  background-color: #e11a27;
+  color: #fff;
+}
+/*# sourceMappingURL=button.css.map */

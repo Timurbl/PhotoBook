@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
 .clean {
   margin: 0;
   padding: 0;
@@ -11,8 +18,29 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
-h1 {
-  color: red;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.view-port {
+  width: 1000px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

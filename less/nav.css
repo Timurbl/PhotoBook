@@ -1,0 +1,46 @@
+.clean {
+  margin: 0;
+  padding: 0;
+}
+.clean-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+#nav .left img {
+  position: relative;
+  top: 2px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+#nav .left span {
+  font-size: 20px;
+  font-weight: bold;
+}
+#nav .right {
+  display: flex;
+}
+#nav .right .phone {
+  padding: 5px 15px;
+  margin-right: 25px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffd200;
+}
+#nav .right .phone span {
+  font-size: 14px;
+  border-bottom: 1px dotted #000;
+}
+#nav .right img {
+  font-size: 25px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=nav.css.map */

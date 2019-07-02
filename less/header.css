@@ -1,0 +1,35 @@
+.clean {
+  margin: 0;
+  padding: 0;
+}
+.clean-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  height: 547px;
+  background: url("../img/header_bg.jpg") no-repeat;
+  background-size: cover;
+}
+#header .text {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#header .text h1 {
+  line-height: 60px;
+  font-size: 60px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+#header .text h4 {
+  font-size: 24px;
+  font-weight: normal;
+}
+/*# sourceMappingURL=header.css.map */
