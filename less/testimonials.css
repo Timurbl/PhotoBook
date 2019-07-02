@@ -1,0 +1,57 @@
+#testimonials {
+  background: url("../img/footer_bg.jpg") no-repeat;
+  background-size: cover;
+  height: 767px;
+}
+#testimonials .content {
+  width: 50%;
+  padding: 20px;
+}
+#testimonials .content h1 {
+  margin-bottom: 40px;
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+#testimonials .content .author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#testimonials .content .author h2 {
+  margin-bottom: 5px;
+}
+#testimonials .content .author > div {
+  text-align: center;
+  margin-left: 30px;
+}
+#testimonials .content .author b {
+  font-weight: normal;
+}
+#testimonials .content .text {
+  margin-bottom: 30px;
+}
+#testimonials .content .text p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+#testimonials .content .next {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+#testimonials .content .next span {
+  font-size: 16px;
+  cursor: pointer;
+}
+#testimonials .content .next img {
+  position: absolute;
+  top: 9px;
+  margin-left: 10px;
+}
+#testimonials .content .button {
+  margin-top: 90px;
+  text-align: center;
+}
+/*# sourceMappingURL=testimonials.css.map */

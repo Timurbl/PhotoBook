@@ -1,0 +1,54 @@
+#steps {
+  padding: 50px 0;
+  text-align: center;
+}
+#steps .tiles {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+#steps .tiles .tile {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+}
+#steps .tiles .tile .header {
+  text-align: center;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-size: 36px;
+  background-color: #ffd200;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#steps .tiles .tile .content {
+  flex-grow: 1;
+  margin-bottom: 5px;
+  text-align: left;
+  padding: 20px;
+  background-color: #f3f0e7;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#steps .tiles .tile .content p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+#steps .tiles .tile .content p.red {
+  margin-top: 20px;
+  color: #e11a27;
+}
+#steps .tiles .tile .content ul {
+  margin: 0;
+  padding: 0;
+  padding: 10px 0 0 30px;
+  font-size: 18px;
+}
+#steps .tiles .tile .content ul li {
+  line-height: 2;
+}
+#steps .tiles .tile .content h4 {
+  font-size: 18px;
+}
+/*# sourceMappingURL=steps.css.map */
